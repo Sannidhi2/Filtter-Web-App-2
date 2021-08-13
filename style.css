@@ -1,0 +1,17 @@
+h3{
+    font-size:25px !important;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+canvas{
+    animation-name:example;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 58px white;;}
+    to{box-shadow:1px 1px 58px darkorchid;;}
+}
+.btn-sucess:hover{
+    background-color:pink;
+}
